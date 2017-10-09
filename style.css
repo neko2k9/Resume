@@ -1,0 +1,89 @@
+h1
+{
+	margin: 0 0 16px 0;
+	padding: 0 0 16px 0;
+	font-size: 54px;
+	font-weight: bold;
+	border-bottom: 3px solid grey;
+}
+
+#photo
+{
+	float: right;
+	height: 315px;
+	width: 225px;
+	-webkit-transform: rotate(-7deg);
+	margin: -30px 0 0 0;
+	border-radius: 50%
+}
+
+body
+{
+	font-family: Arial;
+	line-height: 24px;
+	background-image: url("images/backgroundimg.jpg");
+}
+
+#intro
+{
+	font-family: Palatino; 
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 35px;
+}
+
+#centerpage
+{
+	width: 900px;
+	margin: 40px auto 60px;
+}
+
+#contact-info
+{
+	font-family: Helvetica;
+}
+
+dt
+{ 
+	font-family: Georgia;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: right;
+	padding: 0 26px 0 0;
+	width: 100px; 
+	float: left;
+	height: 100px;
+	border-right: 3px solid grey;
+}
+
+p
+{
+	margin: 0 0 16px 0;
+}
+
+dd
+{
+	font-family: Verdana;
+	width: 700px;
+	float: right;
+}
+
+dd.splitcontent
+{
+	float: none;
+	margin: 0;
+	height: 15px;
+}
+
+.splitcontent
+{ 
+	clear: both;
+}
+
+ul
+{
+	margin: 0 0 32px 10px;
+	margin-left: -20px
+}
